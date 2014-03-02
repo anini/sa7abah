@@ -19,7 +19,10 @@ $(document).ready(function(){
 			}, 2000);
 		}, 500);
 	}, 2500);
-	var script=document.createElement('script'); script.type='text/javascript'; script.async=true;
-	script.src='assets/main.js';
+	var script=document.createElement('script'); 
+		script.type='text/javascript'; 
+		script.async=true;
+		script.src='assets/main.js';
+		
 	var s=document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
 });
